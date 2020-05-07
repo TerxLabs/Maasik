@@ -9238,10 +9238,13 @@
 .hov-img-zoom {
     display: block;
     overflow: hidden;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 .hov-img-zoom img {
-    width: 100%;
+    width: 80%;
     -webkit-transition: all 0.6s;
     -o-transition: all 0.6s;
     -moz-transition: all 0.6s;
@@ -10304,6 +10307,14 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
     text-transform: uppercase;
 }
 
+.l-text3a {
+    font-family: Poppins-Bold;
+    font-size: 45px;
+    line-height: 1.2;
+    color: #ff6a88;
+    text-transform: uppercase;
+}
+
 .l-text4 {
     font-family: Poppins-Bold;
     font-size: 38px;
@@ -10320,7 +10331,12 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
     line-height: 1.2;
 }
 
-.l-text6 {}
+.l-text6 {
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    line-height: 1.2;
+}
 
 
 /*[ XL-Text >= 51 ]
