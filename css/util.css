@@ -10312,6 +10312,16 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
     text-transform: uppercase;
 }
 
+.l-text5 {
+    float: left;
+    font-weight: bolder;
+    font-size: 50px;
+    color: black;
+    line-height: 1.2;
+}
+
+.l-text6 {}
+
 
 /*[ XL-Text >= 51 ]
 ///////////////////////////////////////////////////////////
