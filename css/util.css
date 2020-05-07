@@ -8903,6 +8903,10 @@
     vertical-align: middle;
 }
 
+.t-justify {
+    text-align: justify;
+}
+
 
 /* ------------------------------------ */
 
@@ -10058,6 +10062,14 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
     text-decoration: underline;
 }
 
+.grey-bold {
+    font-family: Poppins-Regular;
+    color: #666;
+    line-height: 1.7em;
+    font-weight: 500;
+    font-size: 16px;
+}
+
 
 /*[ M-Text 16 - 30 ]
 ///////////////////////////////////////////////////////////
@@ -10275,10 +10287,28 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 .l-text2 {
-    font-family: Montserrat-Bold;
-    font-size: 50px;
+    /* font-family: Montserrat-Bold; */
+    float: left;
+    font-weight: 700;
+    font-size: 60px;
     color: white;
     line-height: 1.2;
+    /* text-transform: uppercase; */
+}
+
+.l-text3 {
+    font-family: Poppins-Bold;
+    font-size: 55px;
+    line-height: 1.2;
+    color: #ff6a88;
+    text-transform: uppercase;
+}
+
+.l-text4 {
+    font-family: Poppins-Bold;
+    font-size: 38px;
+    line-height: 1.2;
+    color: #ff6a88;
     text-transform: uppercase;
 }
 
