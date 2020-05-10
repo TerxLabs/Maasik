@@ -9270,6 +9270,13 @@
 }
 
 
+/* Backgrounds */
+
+.background-banner {
+    background-image: linear-gradient(131deg, #ff6a88 0%, #ff99ac 100%)!important;
+}
+
+
 /*[  ]
 -----------------------------------------------------------
 */
