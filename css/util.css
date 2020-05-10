@@ -10380,6 +10380,16 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 
+/* Text Background */
+
+.text-background {
+    background-color: #ff6a88;
+    opacity: 0.95;
+    float: right;
+    padding: 2%;
+}
+
+
 /*[ Color ]
 ///////////////////////////////////////////////////////////
 */
