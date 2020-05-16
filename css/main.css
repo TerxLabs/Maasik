@@ -1481,7 +1481,7 @@ li.sale-noti>a {
 }
 
 .item-slick1 {
-    height: 570px;
+    height: auto;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
