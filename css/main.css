@@ -1481,7 +1481,7 @@ li.sale-noti>a {
 }
 
 .item-slick1 {
-    height: 570px;
+    height: auto;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1565,7 +1565,7 @@ li.sale-noti>a {
         font-size: 16px;
     }
     .item-slick1 {
-        height: 470px;
+        height: auto;
     }
 }
 
@@ -1580,7 +1580,7 @@ li.sale-noti>a {
         font-size: 16px;
     }
     .item-slick1 {
-        height: 370px;
+        height: auto;
     }
 }
 
