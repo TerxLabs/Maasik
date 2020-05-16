@@ -9196,6 +9196,11 @@
     width: 100%;
 }
 
+.wrap-pic-h-50 img {
+    width: 65%;
+    height: 65%;
+}
+
 .wrap-pic-max-w img {
     max-width: 100%;
 }
@@ -9205,6 +9210,11 @@
 
 .wrap-pic-h img {
     height: 100%;
+}
+
+.wrap-pic-h-80 img {
+    height: 80%;
+    width: 80%;
 }
 
 .wrap-pic-max-h img {
