@@ -48,22 +48,33 @@
         <div class="container-menu-header">
             <div class="topbar">
                 <div class="topbar-social">
-                    <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" class="topbar-social-item fa fa-facebook"></a>
-                    <a href="#" class="topbar-social-item fa fa-instagram"></a>
-                    <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
-                    <a href="https://www.linkedin.com/company/maasik/" class="topbar-social-item fa fa-linkedin"></a>
+                    <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" target="_blank" class="topbar-social-item fa fa-facebook"></a>
+                    <a href="#" class="topbar-social-item fa fa-instagram" target="_blank"></a>
+                    <!-- <a href="#" class="topbar-social-item fa fa-youtube-play"></a> -->
+                    <a href="https://www.linkedin.com/company/maasik/" target="_blank" class="topbar-social-item fa fa-linkedin"></a>
                 </div>
+
+                <!-- <span class="topbar-child1">
+					Free shipping for standard order over Rs. 500
+				</span> -->
 
                 <div class="topbar-child2">
                     <span class="topbar-email">
 						info@maasik.in
 					</span>
+
+                    <!-- <div class="topbar-language rs1-select2">
+                        <select class="selection-1" name="time">
+							<option>USD</option>
+							<option>EUR</option>
+						</select>
+                    </div> -->
                 </div>
             </div>
 
             <div class="wrap_header">
                 <!-- Logo -->
-                <a href="index.html" class="logo">
+                <a href="index.php" class="logo">
                     <img src="images/icons/logo.png" alt="IMG-LOGO">
                 </a>
 
@@ -72,19 +83,20 @@
                     <nav class="menu">
                         <ul class="main_menu">
                             <li>
-                                <a href="index.html">Home</a>
+                                <a href="index.php">Home</a>
+
                             </li>
 
                             <li>
-                                <a href="about.html">About Us</a>
+                                <a href="about.php">About Us</a>
                             </li>
 
                             <li>
-                                <a href="product.html">Products</a>
+                                <a href="product.php">Products</a>
                             </li>
 
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="contact.php">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -95,7 +107,7 @@
         <!-- Header Mobile -->
         <div class="wrap_header_mobile">
             <!-- Logo moblie -->
-            <a href="index.html" class="logo-mobile">
+            <a href="index.php" class="logo-mobile">
                 <img src="images/icons/logo.png" alt="IMG-LOGO">
             </a>
 
@@ -121,27 +133,27 @@
 
                     <li class="item-topbar-mobile p-l-10">
                         <div class="topbar-social-mobile">
-                            <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" class="topbar-social-item fa fa-facebook"></a>
-                            <a href="#" class="topbar-social-item fa fa-instagram"></a>
-                            <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
-                            <a href="https://www.linkedin.com/company/maasik/" class="topbar-social-item fa fa-linkedin"></a>
+                            <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" target="_blank" class="topbar-social-item fa fa-facebook"></a>
+                            <a href="#" class="topbar-social-item fa fa-instagram" target="_blank"></a>
+                            <!-- <a href="#" class="topbar-social-item fa fa-youtube-play"></a> -->
+                            <a href="https://www.linkedin.com/company/maasik/" target="_blank" class="topbar-social-item fa fa-linkedin"></a>
                         </div>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="about.html">About Us</a>
+                        <a href="about.php">About Us</a>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="product.html">Products</a>
+                        <a href="product.php">Products</a>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.php">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -222,7 +234,7 @@
 
                                     <div class="block2-btn-addcart w-size1 trans-0-4">
                                         <!-- Button -->
-                                        <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="window.location.href='anion-pads.html'">
+                                        <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="window.location.href='anion-pads.php'">
 											View Details
 										</button>
                                     </div>
@@ -230,7 +242,7 @@
                             </div>
 
                             <div class="block2-txt p-t-20">
-                                <a href="anion-pads.html" class="block2-name dis-block s-text3 p-b-5">
+                                <a href="anion-pads.php" class="block2-name dis-block s-text3 p-b-5">
 									Anion Pads
 								</a>
 
@@ -251,7 +263,7 @@
 
                                     <div class="block2-btn-addcart w-size1">
                                         <!-- Button -->
-                                        <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1" onclick="window.location.href='charcoal-pads.html'">
+                                        <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1" onclick="window.location.href='charcoal-pads.php'">
 											View Details
 										</button>
                                     </div>
@@ -259,7 +271,7 @@
                             </div>
 
                             <div class="block2-txt p-t-20">
-                                <a href="charcoal-pads.html" class="block2-name dis-block s-text3 p-b-5">
+                                <a href="charcoal-pads.php" class="block2-name dis-block s-text3 p-b-5">
 									Charcoal Pads
 								</a>
 
@@ -280,7 +292,7 @@
 
                                     <div class="block2-btn-addcart w-size1 trans-0-4">
                                         <!-- Button -->
-                                        <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="window.location.href='super-silky-soft-pads.html'">
+                                        <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="window.location.href='super-silky-soft-pads.php'">
 											View Details
 										</button>
                                     </div>
@@ -288,7 +300,7 @@
                             </div>
 
                             <div class="block2-txt p-t-20">
-                                <a href="super-silky-soft-pads.html" class="block2-name dis-block s-text3 p-b-5">
+                                <a href="super-silky-soft-pads.php" class="block2-name dis-block s-text3 p-b-5">
 									Super Silky Soft Pads
 								</a>
 
@@ -309,7 +321,7 @@
 
                                     <div class="block2-btn-addcart w-size1 trans-0-4">
                                         <!-- Button -->
-                                        <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="window.location.href='hand-sanitizer.html'">
+                                        <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="window.location.href='hand-sanitizer.php'">
 											View Details
 										</button>
                                     </div>
@@ -317,7 +329,7 @@
                             </div>
 
                             <div class="block2-txt p-t-20">
-                                <a href="hand-sanitizer.html" class="block2-name dis-block s-text3 p-b-5">
+                                <a href="hand-sanitizer.php" class="block2-name dis-block s-text3 p-b-5">
 									Hand Sanitizer
 								</a>
 
@@ -330,7 +342,7 @@
 
                 </div>
             </div>
-            <button class="flex-c-m bg4 bo-rad-30 hov1 s-text1 trans-0-4 view-more-button" onclick="window.location.href='product.html'">
+            <button class="flex-c-m bg4 bo-rad-30 hov1 s-text1 trans-0-4 view-more-button" onclick="window.location.href='product.php'">
                 View More
             </button>
         </div>
@@ -439,19 +451,19 @@
 
                 <ul>
                     <li class="p-b-9">
-                        <a href="product.html" class="s-text7">
+                        <a href="product.php" class="s-text7">
                         Sanitary Pads
                     </a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="personal-hygiene.html" class="s-text7">
+                        <a href="personal-hygiene.php" class="s-text7">
                         Personal Hygiene
                     </a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="elderly-care.html" class="s-text7">
+                        <a href="elderly-care.php" class="s-text7">
                         Elderly Care
                     </a>
                     </li>
@@ -465,19 +477,19 @@
 
                 <ul>
                     <li class="p-b-9">
-                        <a href="about.html#our-mission" class="s-text7">
+                        <a href="about.php#our-mission" class="s-text7">
                         Our Mission
                     </a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="about.html#who-we-are" class="s-text7">
+                        <a href="about.php#who-we-are" class="s-text7">
                         Who We Are
                     </a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="index.html#about-maasik" class="s-text7">
+                        <a href="index.php#about-maasik" class="s-text7">
                         About Maasik
                     </a>
                     </li>

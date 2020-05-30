@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Products - Personal Hygiene</title>
+    <title>Products - Sanitary Pads</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
@@ -43,22 +43,33 @@
         <div class="container-menu-header">
             <div class="topbar">
                 <div class="topbar-social">
-                    <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" class="topbar-social-item fa fa-facebook"></a>
-                    <a href="#" class="topbar-social-item fa fa-instagram"></a>
-                    <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
-                    <a href="https://www.linkedin.com/company/maasik/" class="topbar-social-item fa fa-linkedin"></a>
+                    <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" target="_blank" class="topbar-social-item fa fa-facebook"></a>
+                    <a href="#" class="topbar-social-item fa fa-instagram" target="_blank"></a>
+                    <!-- <a href="#" class="topbar-social-item fa fa-youtube-play"></a> -->
+                    <a href="https://www.linkedin.com/company/maasik/" target="_blank" class="topbar-social-item fa fa-linkedin"></a>
                 </div>
+
+                <!-- <span class="topbar-child1">
+					Free shipping for standard order over Rs. 500
+				</span> -->
 
                 <div class="topbar-child2">
                     <span class="topbar-email">
-					    info@maasik.in
-				    </span>
+						info@maasik.in
+					</span>
+
+                    <!-- <div class="topbar-language rs1-select2">
+                        <select class="selection-1" name="time">
+							<option>USD</option>
+							<option>EUR</option>
+						</select>
+                    </div> -->
                 </div>
             </div>
 
             <div class="wrap_header">
                 <!-- Logo -->
-                <a href="index.html" class="logo">
+                <a href="index.php" class="logo">
                     <img src="images/icons/logo.png" alt="IMG-LOGO">
                 </a>
 
@@ -67,19 +78,20 @@
                     <nav class="menu">
                         <ul class="main_menu">
                             <li>
-                                <a href="index.html">Home</a>
+                                <a href="index.php">Home</a>
+
                             </li>
 
                             <li>
-                                <a href="about.html">About Us</a>
+                                <a href="about.php">About Us</a>
                             </li>
 
                             <li>
-                                <a href="product.html">Products</a>
+                                <a href="product.php">Products</a>
                             </li>
 
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="contact.php">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -90,13 +102,13 @@
         <!-- Header Mobile -->
         <div class="wrap_header_mobile">
             <!-- Logo moblie -->
-            <a href="index.html" class="logo-mobile">
+            <a href="index.php" class="logo-mobile">
                 <img src="images/icons/logo.png" alt="IMG-LOGO">
             </a>
 
             <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
                 <span class="hamburger-box">
-					<span class="hamburger-inner"></span>
+						<span class="hamburger-inner"></span>
                 </span>
             </div>
         </div>
@@ -109,59 +121,34 @@
                     <li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
                         <div class="topbar-child2-mobile">
                             <span class="topbar-email">
-							info@maasik.in
-						</span>
-
-                            <!-- <div class="topbar-language rs1-select2">
-							<select class="selection-1" name="time">
-								<option>USD</option>
-								<option>EUR</option>
-							</select>
-						</div> -->
+								info@maasik.in
+							</span>
                         </div>
                     </li>
 
                     <li class="item-topbar-mobile p-l-10">
                         <div class="topbar-social-mobile">
-                            <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" class="topbar-social-item fa fa-facebook"></a>
-                            <a href="#" class="topbar-social-item fa fa-instagram"></a>
-                            <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
-                            <a href="https://www.linkedin.com/company/maasik/" class="topbar-social-item fa fa-linkedin"></a>
+                            <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" target="_blank" class="topbar-social-item fa fa-facebook"></a>
+                            <a href="#" class="topbar-social-item fa fa-instagram" target="_blank"></a>
+                            <!-- <a href="#" class="topbar-social-item fa fa-youtube-play"></a> -->
+                            <a href="https://www.linkedin.com/company/maasik/" target="_blank" class="topbar-social-item fa fa-linkedin"></a>
                         </div>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="index.html">Home</a>
-                        <!-- <ul class="sub-menu">
-						<li><a href="index.html">Homepage V1</a></li>
-						<li><a href="home-02.html">Homepage V2</a></li>
-						<li><a href="home-03.html">Homepage V3</a></li>
-					</ul>
-					<i class="arrow-main-menu fa fa-angle-right" aria-hidden="true"></i> -->
+                        <a href="index.php">Home</a>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="about.html">About Us</a>
+                        <a href="about.php">About Us</a>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="product.html">Products</a>
+                        <a href="product.php">Products</a>
                     </li>
 
-                    <!-- <li class="item-menu-mobile">
-					<a href="product.html">Sale</a>
-				</li>
-
-				<li class="item-menu-mobile">
-					<a href="cart.html">Features</a>
-				</li> -->
-
-                    <!-- <li class="item-menu-mobile">
-                        <a href="blog.html">Blog</a>
-                    </li> -->
-
                     <li class="item-menu-mobile">
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.php">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -171,7 +158,7 @@
     <!-- Title Page -->
     <section class="bg-title-page p-t-50 p-b-40 flex-col-c-m background-banner">
         <h2 class="l-text2 t-center">
-            Personal Hygiene
+            Sanitary Pads
         </h2>
         <!-- <p class="m-text13 t-center">
             
@@ -192,25 +179,25 @@
 
                         <ul class="p-b-54">
                             <li class="p-t-4">
-                                <a href="product.html" class="s-text13 active1">
+                                <a href="product.php" class="s-text13 active1">
 									All
 								</a>
                             </li>
 
                             <li class="p-t-4">
-                                <a href="sanitary-pads.html" class="s-text13">
+                                <a href="sanitary-pads.php" class="s-text13">
 									Sanitary Pads
 								</a>
                             </li>
 
                             <li class="p-t-4">
-                                <a href="elderly-care.html" class="s-text13">
+                                <a href="elderly-care.php" class="s-text13">
 									Elderly Care
 								</a>
                             </li>
 
                             <li class="p-t-4">
-                                <a href="personal-hygiene.html" class="s-text13">
+                                <a href="personal-hygiene.php" class="s-text13">
 									Personal Hygiene
 								</a>
                             </li>
@@ -220,6 +207,138 @@
                 <div class="col-sm-6 col-md-8 col-lg-9 p-b-50">
                     <!-- Product -->
                     <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+                            <!-- Block2 -->
+                            <div class="block2">
+                                <div class="block2-img wrap-pic-w of-hidden pos-relative">
+                                    <img src="images/anion-pad.png" alt="IMG-PRODUCT">
+
+                                    <div class="block2-overlay trans-0-4">
+                                        <!-- <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                            <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                            <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                        </a> -->
+
+                                        <div class="block2-btn-addcart w-size1 trans-0-4">
+                                            <!-- Button -->
+                                            <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="window.location.href='anion-pads.php'">
+												View More
+											</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="block2-txt p-t-20">
+                                    <a href="anion-pads.php" class="block2-name dis-block s-text3 p-b-5">
+										Anion Pads
+									</a>
+
+                                    <span class="block2-price m-text6 p-r-5">
+										Rs. 
+									</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+                            <!-- Block2 -->
+                            <div class="block2">
+                                <div class="block2-img wrap-pic-w of-hidden pos-relative">
+                                    <img src="images/charcoal-pad.png" alt="IMG-PRODUCT">
+
+                                    <div class="block2-overlay trans-0-4">
+                                        <!-- <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                            <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                            <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                        </a> -->
+
+                                        <div class="block2-btn-addcart w-size1 trans-0-4">
+                                            <!-- Button -->
+                                            <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="window.location.href='charcoal-pads.php'">
+												View More
+											</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="block2-txt p-t-20">
+                                    <a href="charcoal-pads.php" class="block2-name dis-block s-text3 p-b-5">
+										Charcoal Pads
+									</a>
+
+                                    <span class="block2-price m-text6 p-r-5">
+										Rs. 
+									</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+                            <!-- Block2 -->
+                            <div class="block2">
+                                <div class="block2-img wrap-pic-w of-hidden pos-relative ">
+                                    <img src="images/nano-ultra-pad.png" alt="IMG-PRODUCT">
+
+                                    <div class="block2-overlay trans-0-4">
+                                        <!-- <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                            <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                            <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                        </a> -->
+
+                                        <div class="block2-btn-addcart w-size1 trans-0-4">
+                                            <!-- Button -->
+                                            <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="window.location.href='nano-ultra.php'">
+												View More
+											</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="block2-txt p-t-20">
+                                    <a href="nano-ultra.php" class="block2-name dis-block s-text3 p-b-5">
+										Nano Ultra Pads
+									</a>
+
+                                    <span class="block2-price m-text6 p-r-5">
+										Rs. 
+									</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+                            <!-- Block2 -->
+                            <div class="block2">
+                                <div class="block2-img wrap-pic-w of-hidden pos-relative">
+                                    <img src="images/silky-soft-pad.png" alt="IMG-PRODUCT">
+
+                                    <div class="block2-overlay trans-0-4">
+                                        <!-- <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                            <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                            <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                        </a> -->
+
+                                        <div class="block2-btn-addcart w-size1 trans-0-4">
+                                            <!-- Button -->
+                                            <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="window.location.href='super-soft-silky-pads.php'">
+												View More
+											</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="block2-txt p-t-20">
+                                    <a href="super-soft-silky-pads.php" class="block2-name dis-block s-text3 p-b-5">
+										Super Soft Silky Pads
+									</a>
+
+                                    <span class="block2-price m-text6 p-r-5">
+										Rs. 
+									</span>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
                             <!-- Block2 -->
                             <div class="block2">
@@ -234,7 +353,7 @@
 
                                         <div class="block2-btn-addcart w-size1 trans-0-4">
                                             <!-- Button -->
-                                            <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="window.location.href='hand-sanitizer.html'">
+                                            <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="window.location.href='maxi-regular.php'">
 												View More
 											</button>
                                         </div>
@@ -242,8 +361,8 @@
                                 </div>
 
                                 <div class="block2-txt p-t-20">
-                                    <a href="hand-sanitizer.html" class="block2-name dis-block s-text3 p-b-5">
-										Hand Sanitizers
+                                    <a href="maxi-regular.php" class="block2-name dis-block s-text3 p-b-5">
+										Maxi Regular Pads
 									</a>
 
                                     <span class="block2-price m-text6 p-r-5">
@@ -267,7 +386,7 @@
 
                                         <div class="block2-btn-addcart w-size1 trans-0-4">
                                             <!-- Button -->
-                                            <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="window.location.href='wet-wipes.html'">
+                                            <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="window.location.href='ultra-thin.php'">
 												View More
 											</button>
                                         </div>
@@ -275,8 +394,8 @@
                                 </div>
 
                                 <div class="block2-txt p-t-20">
-                                    <a href="wet-wipes.html" class="block2-name dis-block s-text3 p-b-5">
-										Wet Wipes
+                                    <a href="ultra-thin.php" class="block2-name dis-block s-text3 p-b-5">
+										Ultra Thin Pads
 									</a>
 
                                     <span class="block2-price m-text6 p-r-5">
@@ -340,19 +459,19 @@
 
                 <ul>
                     <li class="p-b-9">
-                        <a href="product.html" class="s-text7">
+                        <a href="product.php" class="s-text7">
 							Sanitary Pads
 						</a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="personal-hygiene.html" class="s-text7">
+                        <a href="personal-hygiene.php" class="s-text7">
                             Personal Hygiene
 						</a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="elderly-care.html" class="s-text7">
+                        <a href="elderly-care.php" class="s-text7">
                             Elderly Care
 						</a>
                     </li>
@@ -366,19 +485,19 @@
 
                 <ul>
                     <li class="p-b-9">
-                        <a href="about.html#our-mission" class="s-text7">
+                        <a href="about.php#our-mission" class="s-text7">
 							Our Mission
 						</a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="about.html#who-we-are" class="s-text7">
+                        <a href="about.php#who-we-are" class="s-text7">
 							Who We Are
 						</a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="index.html#about-maasik" class="s-text7">
+                        <a href="index.php#about-maasik" class="s-text7">
 							About Maasik
 						</a>
                     </li>
@@ -486,14 +605,14 @@
     <script type="text/javascript" src="vendor/sweetalert/sweetalert.min.js"></script>
     <!-- <script type="text/javascript">
         $('.block2-btn-addcart').each(function() {
-            var nameProduct = $(this).parent().parent().parent().find('.block2-name').html();
+            var nameProduct = $(this).parent().parent().parent().find('.block2-name').php();
             $(this).on('click', function() {
                 swal(nameProduct, "is added to cart !", "success");
             });
         });
 
         $('.block2-btn-addwishlist').each(function() {
-            var nameProduct = $(this).parent().parent().parent().find('.block2-name').html();
+            var nameProduct = $(this).parent().parent().parent().find('.block2-name').php();
             $(this).on('click', function() {
                 swal(nameProduct, "is added to wishlist !", "success");
             });

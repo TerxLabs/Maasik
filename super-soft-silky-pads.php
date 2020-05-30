@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Product - Charcoal Pads</title>
+    <title>Product - Super Soft Silky Pads</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
@@ -41,21 +41,33 @@
         <div class="container-menu-header">
             <div class="topbar">
                 <div class="topbar-social">
-                    <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" class="topbar-social-item fa fa-facebook"></a>
-                    <a href="#" class="topbar-social-item fa fa-instagram"></a>
-                    <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
-                    <a href="https://www.linkedin.com/company/maasik/" class="topbar-social-item fa fa-linkedin"></a>
+                    <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" target="_blank" class="topbar-social-item fa fa-facebook"></a>
+                    <a href="#" class="topbar-social-item fa fa-instagram" target="_blank"></a>
+                    <!-- <a href="#" class="topbar-social-item fa fa-youtube-play"></a> -->
+                    <a href="https://www.linkedin.com/company/maasik/" target="_blank" class="topbar-social-item fa fa-linkedin"></a>
                 </div>
+
+                <!-- <span class="topbar-child1">
+					Free shipping for standard order over Rs. 500
+				</span> -->
+
                 <div class="topbar-child2">
                     <span class="topbar-email">
 						info@maasik.in
 					</span>
+
+                    <!-- <div class="topbar-language rs1-select2">
+                        <select class="selection-1" name="time">
+							<option>USD</option>
+							<option>EUR</option>
+						</select>
+                    </div> -->
                 </div>
             </div>
 
             <div class="wrap_header">
                 <!-- Logo -->
-                <a href="index.html" class="logo">
+                <a href="index.php" class="logo">
                     <img src="images/icons/logo.png" alt="IMG-LOGO">
                 </a>
 
@@ -64,20 +76,20 @@
                     <nav class="menu">
                         <ul class="main_menu">
                             <li>
-                                <a href="index.html">Home</a>
+                                <a href="index.php">Home</a>
 
                             </li>
 
                             <li>
-                                <a href="about.html">About Us</a>
+                                <a href="about.php">About Us</a>
                             </li>
 
                             <li>
-                                <a href="product.html">Products</a>
+                                <a href="product.php">Products</a>
                             </li>
 
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="contact.php">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -88,7 +100,7 @@
         <!-- Header Mobile -->
         <div class="wrap_header_mobile">
             <!-- Logo moblie -->
-            <a href="index.html" class="logo-mobile">
+            <a href="index.php" class="logo-mobile">
                 <img src="images/icons/logo.png" alt="IMG-LOGO">
             </a>
 
@@ -114,27 +126,27 @@
 
                     <li class="item-topbar-mobile p-l-10">
                         <div class="topbar-social-mobile">
-                            <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" class="topbar-social-item fa fa-facebook"></a>
-                            <a href="#" class="topbar-social-item fa fa-instagram"></a>
-                            <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
-                            <a href="https://www.linkedin.com/company/maasik/" class="topbar-social-item fa fa-linkedin"></a>
+                            <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" target="_blank" class="topbar-social-item fa fa-facebook"></a>
+                            <a href="#" class="topbar-social-item fa fa-instagram" target="_blank"></a>
+                            <!-- <a href="#" class="topbar-social-item fa fa-youtube-play"></a> -->
+                            <a href="https://www.linkedin.com/company/maasik/" target="_blank" class="topbar-social-item fa fa-linkedin"></a>
                         </div>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="about.html">About Us</a>
+                        <a href="about.php">About Us</a>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="product.html">Products</a>
+                        <a href="product.php">Products</a>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.php">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -143,23 +155,23 @@
 
     <!-- breadcrumb -->
     <div class="bread-crumb bgwhite flex-w p-l-52 p-r-15 p-t-30 p-l-15-sm">
-        <a href="index.html" class="s-text16">
+        <a href="index.php" class="s-text16">
 			Home
 			<i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
 		</a>
 
-        <a href="product.html" class="s-text16">
+        <a href="product.php" class="s-text16">
 			Products
 			<i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
 		</a>
 
-        <a href="sanitary-pads.html" class="s-text16">
+        <a href="sanitary-pads.php" class="s-text16">
 			Sanitary Pads
 			<i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
 		</a>
 
-        <a href="charcoal-pads.html" class="s-text16">
-			Charcoal Pads
+        <a href="super-soft-silky-pads.php" class="s-text16">
+			Super Soft Silky Pads
 		</a>
     </div>
 
@@ -194,7 +206,7 @@
 
             <div class="w-size14 p-t-30 respon5">
                 <h4 class="product-detail-name m-text16 p-b-13">
-                    Charcoal Pads
+                    Super Soft Silky Pads
                 </h4>
 
                 <span class="m-text17">
@@ -202,7 +214,7 @@
 				</span>
 
                 <p class="s-text8 p-t-10">
-                    Active Carbon Charcoal Fibre Pads adepts at adsorbing foul and toxic smells from gases and liquids, activated charcoal has some applications for reducing body odor and purifies genetial health and blood.
+                    Get super long lasting period protection with Maasik Super Silky Soft Pads which features unique design with superior protection that locks up to 100% wetness and even locks odour.
                 </p>
 
                 <!--  -->
@@ -241,6 +253,18 @@
 
                     <div class="flex-r-m flex-w p-t-10">
                         <div class="w-size16 flex-m flex-w">
+                            <!-- <div class="flex-w bo5 of-hidden m-r-22 m-t-10 m-b-10">
+                                <button class="btn-num-product-down color1 flex-c-m size7 bg8 eff2">
+									<i class="fs-12 fa fa-minus" aria-hidden="true"></i>
+								</button>
+
+                                <input class="size8 m-text18 t-center num-product" type="number" name="num-product" value="1">
+
+                                <button class="btn-num-product-up color1 flex-c-m size7 bg8 eff2">
+									<i class="fs-12 fa fa-plus" aria-hidden="true"></i>
+								</button>
+                            </div> -->
+
                             <div class="btn-addcart-product-detail size9 trans-0-4 m-t-10 m-b-10">
                                 <!-- Button -->
                                 <button class="flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4">
@@ -266,9 +290,9 @@
 
                     <div class="dropdown-content dis-none p-t-15 p-b-23">
                         <p class="s-text8 t-justify">
-                            Unlike regular charcoal, which is a known carcinogen, activated charcoal is medicinal. It’s the byproduct of slowly burnt wood,peat , or coconut shells that is treated with oxygen, a process which renders it highly porous and nonpolar, allowing it to
-                            adsorb(that is, bind to, as opposed to absorb) hydrophobic toxins and odors from gases or liquids up to 1,000 times its weight. Maasik Active Carbon Charcoal Fibre Pads adepts at adsorbing foul and toxic smells from gases and
-                            liquids, activated charcoal has some applications for reducing body odor and purifies genetial health and blood.
+                            Super Silky Soft Pads with wings keeps you comfortable and active all day long. It is the best and softest range of pads by the Maasik Pads range which is suitable for women with sensitive skin which is made from the purest form of cotton and best absorbent
+                            sap sheets. So, it does not irritate the skin, reducing the risk of infections and skin rashes as they do not contain any synthetic chemicals. With the Maasik Super Silky Soft Pads, your skin gets all the pampering it needs
+                            and you get all the confidence you deserve.
                         </p>
                     </div>
                 </div>
@@ -285,9 +309,9 @@
                             Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placerat
                         </p>
                     </div>
-                </div> -->
+                </div>
 
-                <!-- <div class="wrap-dropdown-content bo7 p-t-15 p-b-14">
+                <div class="wrap-dropdown-content bo7 p-t-15 p-b-14">
                     <h5 class="js-toggle-dropdown-content flex-sb-m cs-pointer m-text19 color0-hov trans-0-4">
                         Reviews (0)
                         <i class="down-mark fs-12 color1 fa fa-minus dis-none" aria-hidden="true"></i>
@@ -300,6 +324,7 @@
                         </p>
                     </div>
                 </div> -->
+
             </div>
         </div>
     </div>
@@ -316,21 +341,21 @@
 
                 <ul>
                     <li class="p-b-9">
-                        <a href="product.html" class="s-text7">
-                        Sanitary Pads
-                    </a>
+                        <a href="product.php" class="s-text7">
+							Sanitary Pads
+						</a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="personal-hygiene.html" class="s-text7">
-                        Personal Hygiene
-                    </a>
+                        <a href="personal-hygiene.php" class="s-text7">
+                            Personal Hygiene
+						</a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="elderly-care.html" class="s-text7">
-                        Elderly Care
-                    </a>
+                        <a href="elderly-care.php" class="s-text7">
+                            Elderly Care
+						</a>
                     </li>
                 </ul>
             </div>
@@ -342,28 +367,28 @@
 
                 <ul>
                     <li class="p-b-9">
-                        <a href="about.html#our-mission" class="s-text7">
-                        Our Mission
-                    </a>
+                        <a href="about.php#our-mission" class="s-text7">
+							Our Mission
+						</a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="about.html#who-we-are" class="s-text7">
-                        Who We Are
-                    </a>
+                        <a href="about.php#who-we-are" class="s-text7">
+							Who We Are
+						</a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="index.html#about-maasik" class="s-text7">
-                        About Maasik
-                    </a>
+                        <a href="index.php#about-maasik" class="s-text7">
+							About Maasik
+						</a>
                     </li>
 
                     <!-- <li class="p-b-9">
-                    <a href="#" class="s-text7">
-                        FAQs
-                    </a>
-                </li> -->
+                        <a href="#" class="s-text7">
+							FAQs
+						</a>
+                    </li> -->
                 </ul>
             </div>
 
@@ -388,25 +413,25 @@
             </div>
 
             <!-- <div class="w-size8 p-t-30 p-l-15 p-r-15 respon3">
-            <h4 class="s-text12 p-b-30">
-                Newsletter
-            </h4>
+                <h4 class="s-text12 p-b-30">
+                    Newsletter
+                </h4>
 
-            <form>
-                <div class="effect1 w-size9">
-                    <input class="s-text7 bg6 w-full p-b-5" type="text" name="email" placeholder="email@example.com">
-                    <span class="effect1-line"></span>
-                </div>
+                <form>
+                    <div class="effect1 w-size9">
+                        <input class="s-text7 bg6 w-full p-b-5" type="text" name="email" placeholder="email@example.com">
+                        <span class="effect1-line"></span>
+                    </div>
 
-                <div class="w-size2 p-t-20">
-                    <!-- Button -->
+                    <div class="w-size2 p-t-20">
+                        <!-- Button -->
             <!--<button class="flex-c-m size2 bg4 bo-rad-23 hov1 m-text3 trans-0-4">
-                        Subscribe
-                    </button>
-                </div>
+							Subscribe
+						</button>
+                    </div>
 
-            </form>
-        </div> -->
+                </form>
+            </div> -->
         </div>
 
         <div class="t-center p-l-15 p-r-15">
@@ -459,21 +484,21 @@
     <script type="text/javascript" src="vendor/sweetalert/sweetalert.min.js"></script>
     <!-- <script type="text/javascript">
         $('.block2-btn-addcart').each(function() {
-            var nameProduct = $(this).parent().parent().parent().find('.block2-name').html();
+            var nameProduct = $(this).parent().parent().parent().find('.block2-name').php();
             $(this).on('click', function() {
                 swal(nameProduct, "is added to cart !", "success");
             });
         });
 
         $('.block2-btn-addwishlist').each(function() {
-            var nameProduct = $(this).parent().parent().parent().find('.block2-name').html();
+            var nameProduct = $(this).parent().parent().parent().find('.block2-name').php();
             $(this).on('click', function() {
                 swal(nameProduct, "is added to wishlist !", "success");
             });
         });
 
         $('.btn-addcart-product-detail').each(function() {
-            var nameProduct = $('.product-detail-name').html();
+            var nameProduct = $('.product-detail-name').php();
             $(this).on('click', function() {
                 swal(nameProduct, "is added to wishlist !", "success");
             });

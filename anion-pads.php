@@ -41,21 +41,33 @@
         <div class="container-menu-header">
             <div class="topbar">
                 <div class="topbar-social">
-                    <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" class="topbar-social-item fa fa-facebook"></a>
-                    <a href="#" class="topbar-social-item fa fa-instagram"></a>
-                    <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
-                    <a href="https://www.linkedin.com/company/maasik/" class="topbar-social-item fa fa-linkedin"></a>
+                    <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" target="_blank" class="topbar-social-item fa fa-facebook"></a>
+                    <a href="#" class="topbar-social-item fa fa-instagram" target="_blank"></a>
+                    <!-- <a href="#" class="topbar-social-item fa fa-youtube-play"></a> -->
+                    <a href="https://www.linkedin.com/company/maasik/" target="_blank" class="topbar-social-item fa fa-linkedin"></a>
                 </div>
+
+                <!-- <span class="topbar-child1">
+					Free shipping for standard order over Rs. 500
+				</span> -->
+
                 <div class="topbar-child2">
                     <span class="topbar-email">
 						info@maasik.in
 					</span>
+
+                    <!-- <div class="topbar-language rs1-select2">
+                        <select class="selection-1" name="time">
+							<option>USD</option>
+							<option>EUR</option>
+						</select>
+                    </div> -->
                 </div>
             </div>
 
             <div class="wrap_header">
                 <!-- Logo -->
-                <a href="index.html" class="logo">
+                <a href="index.php" class="logo">
                     <img src="images/icons/logo.png" alt="IMG-LOGO">
                 </a>
 
@@ -64,20 +76,20 @@
                     <nav class="menu">
                         <ul class="main_menu">
                             <li>
-                                <a href="index.html">Home</a>
+                                <a href="index.php">Home</a>
 
                             </li>
 
                             <li>
-                                <a href="about.html">About Us</a>
+                                <a href="about.php">About Us</a>
                             </li>
 
                             <li>
-                                <a href="product.html">Products</a>
+                                <a href="product.php">Products</a>
                             </li>
 
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="contact.php">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -88,7 +100,7 @@
         <!-- Header Mobile -->
         <div class="wrap_header_mobile">
             <!-- Logo moblie -->
-            <a href="index.html" class="logo-mobile">
+            <a href="index.php" class="logo-mobile">
                 <img src="images/icons/logo.png" alt="IMG-LOGO">
             </a>
 
@@ -114,27 +126,27 @@
 
                     <li class="item-topbar-mobile p-l-10">
                         <div class="topbar-social-mobile">
-                            <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" class="topbar-social-item fa fa-facebook"></a>
-                            <a href="#" class="topbar-social-item fa fa-instagram"></a>
-                            <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
-                            <a href="https://www.linkedin.com/company/maasik/" class="topbar-social-item fa fa-linkedin"></a>
+                            <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" target="_blank" class="topbar-social-item fa fa-facebook"></a>
+                            <a href="#" class="topbar-social-item fa fa-instagram" target="_blank"></a>
+                            <!-- <a href="#" class="topbar-social-item fa fa-youtube-play"></a> -->
+                            <a href="https://www.linkedin.com/company/maasik/" target="_blank" class="topbar-social-item fa fa-linkedin"></a>
                         </div>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="about.html">About Us</a>
+                        <a href="about.php">About Us</a>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="product.html">Products</a>
+                        <a href="product.php">Products</a>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.php">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -143,22 +155,22 @@
 
     <!-- breadcrumb -->
     <div class="bread-crumb bgwhite flex-w p-l-52 p-r-15 p-t-30 p-l-15-sm">
-        <a href="index.html" class="s-text16">
+        <a href="index.php" class="s-text16">
 			Home
 			<i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
 		</a>
 
-        <a href="product.html" class="s-text16">
+        <a href="product.php" class="s-text16">
 			Products
 			<i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
 		</a>
 
-        <a href="sanitary-pads.html" class="s-text16">
+        <a href="sanitary-pads.php" class="s-text16">
 			Sanitary Pads
 			<i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
 		</a>
 
-        <a href="anion-pads.html" class="s-text16">
+        <a href="anion-pads.php" class="s-text16">
 			Anion Pads
 		</a>
     </div>
@@ -303,19 +315,19 @@
 
                 <ul>
                     <li class="p-b-9">
-                        <a href="product.html" class="s-text7">
+                        <a href="product.php" class="s-text7">
 							Sanitary Pads
 						</a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="personal-hygiene.html" class="s-text7">
+                        <a href="personal-hygiene.php" class="s-text7">
                             Personal Hygiene
 						</a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="elderly-care.html" class="s-text7">
+                        <a href="elderly-care.php" class="s-text7">
                             Elderly Care
 						</a>
                     </li>
@@ -329,19 +341,19 @@
 
                 <ul>
                     <li class="p-b-9">
-                        <a href="about.html#our-mission" class="s-text7">
+                        <a href="about.php#our-mission" class="s-text7">
 							Our Mission
 						</a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="about.html#who-we-are" class="s-text7">
+                        <a href="about.php#who-we-are" class="s-text7">
 							Who We Are
 						</a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="index.html#about-maasik" class="s-text7">
+                        <a href="index.php#about-maasik" class="s-text7">
 							About Maasik
 						</a>
                     </li>

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Product - Adult Diapers</title>
+    <title>Product - Charcoal Pads</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
@@ -41,21 +41,33 @@
         <div class="container-menu-header">
             <div class="topbar">
                 <div class="topbar-social">
-                    <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" class="topbar-social-item fa fa-facebook"></a>
-                    <a href="#" class="topbar-social-item fa fa-instagram"></a>
-                    <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
-                    <a href="https://www.linkedin.com/company/maasik/" class="topbar-social-item fa fa-linkedin"></a>
+                    <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" target="_blank" class="topbar-social-item fa fa-facebook"></a>
+                    <a href="#" class="topbar-social-item fa fa-instagram" target="_blank"></a>
+                    <!-- <a href="#" class="topbar-social-item fa fa-youtube-play"></a> -->
+                    <a href="https://www.linkedin.com/company/maasik/" target="_blank" class="topbar-social-item fa fa-linkedin"></a>
                 </div>
+
+                <!-- <span class="topbar-child1">
+					Free shipping for standard order over Rs. 500
+				</span> -->
+
                 <div class="topbar-child2">
                     <span class="topbar-email">
 						info@maasik.in
 					</span>
+
+                    <!-- <div class="topbar-language rs1-select2">
+                        <select class="selection-1" name="time">
+							<option>USD</option>
+							<option>EUR</option>
+						</select>
+                    </div> -->
                 </div>
             </div>
 
             <div class="wrap_header">
                 <!-- Logo -->
-                <a href="index.html" class="logo">
+                <a href="index.php" class="logo">
                     <img src="images/icons/logo.png" alt="IMG-LOGO">
                 </a>
 
@@ -64,20 +76,20 @@
                     <nav class="menu">
                         <ul class="main_menu">
                             <li>
-                                <a href="index.html">Home</a>
+                                <a href="index.php">Home</a>
 
                             </li>
 
                             <li>
-                                <a href="about.html">About Us</a>
+                                <a href="about.php">About Us</a>
                             </li>
 
                             <li>
-                                <a href="product.html">Products</a>
+                                <a href="product.php">Products</a>
                             </li>
 
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="contact.php">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -88,7 +100,7 @@
         <!-- Header Mobile -->
         <div class="wrap_header_mobile">
             <!-- Logo moblie -->
-            <a href="index.html" class="logo-mobile">
+            <a href="index.php" class="logo-mobile">
                 <img src="images/icons/logo.png" alt="IMG-LOGO">
             </a>
 
@@ -114,27 +126,27 @@
 
                     <li class="item-topbar-mobile p-l-10">
                         <div class="topbar-social-mobile">
-                            <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" class="topbar-social-item fa fa-facebook"></a>
-                            <a href="#" class="topbar-social-item fa fa-instagram"></a>
-                            <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
-                            <a href="https://www.linkedin.com/company/maasik/" class="topbar-social-item fa fa-linkedin"></a>
+                            <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" target="_blank" class="topbar-social-item fa fa-facebook"></a>
+                            <a href="#" class="topbar-social-item fa fa-instagram" target="_blank"></a>
+                            <!-- <a href="#" class="topbar-social-item fa fa-youtube-play"></a> -->
+                            <a href="https://www.linkedin.com/company/maasik/" target="_blank" class="topbar-social-item fa fa-linkedin"></a>
                         </div>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="about.html">About Us</a>
+                        <a href="about.php">About Us</a>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="product.html">Products</a>
+                        <a href="product.php">Products</a>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.php">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -143,23 +155,23 @@
 
     <!-- breadcrumb -->
     <div class="bread-crumb bgwhite flex-w p-l-52 p-r-15 p-t-30 p-l-15-sm">
-        <a href="index.html" class="s-text16">
+        <a href="index.php" class="s-text16">
 			Home
 			<i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
 		</a>
 
-        <a href="product.html" class="s-text16">
+        <a href="product.php" class="s-text16">
 			Products
 			<i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
 		</a>
 
-        <a href="elderly-care.html" class="s-text16">
-			Elderly Care
+        <a href="sanitary-pads.php" class="s-text16">
+			Sanitary Pads
 			<i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
-        </a>
+		</a>
 
-        <a href="adult-diapers.html" class="s-text16">
-			Adult Diapers
+        <a href="charcoal-pads.php" class="s-text16">
+			Charcoal Pads
 		</a>
     </div>
 
@@ -194,7 +206,7 @@
 
             <div class="w-size14 p-t-30 respon5">
                 <h4 class="product-detail-name m-text16 p-b-13">
-                    Adult Diapers
+                    Charcoal Pads
                 </h4>
 
                 <span class="m-text17">
@@ -202,7 +214,7 @@
 				</span>
 
                 <p class="s-text8 p-t-10">
-                    Adult Diaper for people facing a problem of incontinence.
+                    Active Carbon Charcoal Fibre Pads adepts at adsorbing foul and toxic smells from gases and liquids, activated charcoal has some applications for reducing body odor and purifies genetial health and blood.
                 </p>
 
                 <!--  -->
@@ -223,20 +235,24 @@
                         </div>
                     </div>
 
+                    <!-- <div class="flex-m flex-w">
+                        <div class="s-text15 w-size15 t-center">
+                            Color
+                        </div>
+
+                        <div class="rs2-select2 rs3-select2 bo4 of-hidden w-size16">
+                            <select class="selection-2" name="color">
+								<option>Choose an option</option>
+								<option>Gray</option>
+								<option>Red</option>
+								<option>Black</option>
+								<option>Blue</option>
+							</select>
+                        </div>
+                    </div> -->
+
                     <div class="flex-r-m flex-w p-t-10">
                         <div class="w-size16 flex-m flex-w">
-                            <!-- <div class="flex-w bo5 of-hidden m-r-22 m-t-10 m-b-10">
-                                <button class="btn-num-product-down color1 flex-c-m size7 bg8 eff2">
-									<i class="fs-12 fa fa-minus" aria-hidden="true"></i>
-								</button>
-
-                                <input class="size8 m-text18 t-center num-product" type="number" name="num-product" value="1">
-
-                                <button class="btn-num-product-up color1 flex-c-m size7 bg8 eff2">
-									<i class="fs-12 fa fa-plus" aria-hidden="true"></i>
-								</button>
-                            </div> -->
-
                             <div class="btn-addcart-product-detail size9 trans-0-4 m-t-10 m-b-10">
                                 <!-- Button -->
                                 <button class="flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4">
@@ -249,7 +265,7 @@
 
                 <div class="p-b-45">
                     <!-- <span class="s-text8 m-r-35">SKU: MUG-01</span> -->
-                    <span class="s-text8">Categories: Elderly Care</span>
+                    <span class="s-text8">Categories: Sanitary Pads</span>
                 </div>
 
                 <!--  -->
@@ -262,8 +278,9 @@
 
                     <div class="dropdown-content dis-none p-t-15 p-b-23">
                         <p class="s-text8 t-justify">
-                            Super absorbent and fit in all type of underwear. Moreover they are available in various sizes and offers odour reduction too. Investing in it allows you maximum leakage control, healthy reduction and odour reduction and above all a great comfort from
-                            the problem of incontinence.
+                            Unlike regular charcoal, which is a known carcinogen, activated charcoal is medicinal. It’s the byproduct of slowly burnt wood,peat , or coconut shells that is treated with oxygen, a process which renders it highly porous and nonpolar, allowing it to
+                            adsorb(that is, bind to, as opposed to absorb) hydrophobic toxins and odors from gases or liquids up to 1,000 times its weight. Maasik Active Carbon Charcoal Fibre Pads adepts at adsorbing foul and toxic smells from gases and
+                            liquids, activated charcoal has some applications for reducing body odor and purifies genetial health and blood.
                         </p>
                     </div>
                 </div>
@@ -311,21 +328,21 @@
 
                 <ul>
                     <li class="p-b-9">
-                        <a href="product.html" class="s-text7">
-							Sanitary Pads
-						</a>
+                        <a href="product.php" class="s-text7">
+                        Sanitary Pads
+                    </a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="personal-hygiene.html" class="s-text7">
-                            Personal Hygiene
-						</a>
+                        <a href="personal-hygiene.php" class="s-text7">
+                        Personal Hygiene
+                    </a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="elderly-care.html" class="s-text7">
-                            Elderly Care
-						</a>
+                        <a href="elderly-care.php" class="s-text7">
+                        Elderly Care
+                    </a>
                     </li>
                 </ul>
             </div>
@@ -337,28 +354,28 @@
 
                 <ul>
                     <li class="p-b-9">
-                        <a href="about.html#our-mission" class="s-text7">
-							Our Mission
-						</a>
+                        <a href="about.php#our-mission" class="s-text7">
+                        Our Mission
+                    </a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="about.html#who-we-are" class="s-text7">
-							Who We Are
-						</a>
+                        <a href="about.php#who-we-are" class="s-text7">
+                        Who We Are
+                    </a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="index.html#about-maasik" class="s-text7">
-							About Maasik
-						</a>
+                        <a href="index.php#about-maasik" class="s-text7">
+                        About Maasik
+                    </a>
                     </li>
 
                     <!-- <li class="p-b-9">
-                        <a href="#" class="s-text7">
-							FAQs
-						</a>
-                    </li> -->
+                    <a href="#" class="s-text7">
+                        FAQs
+                    </a>
+                </li> -->
                 </ul>
             </div>
 
@@ -383,25 +400,25 @@
             </div>
 
             <!-- <div class="w-size8 p-t-30 p-l-15 p-r-15 respon3">
-                <h4 class="s-text12 p-b-30">
-                    Newsletter
-                </h4>
+            <h4 class="s-text12 p-b-30">
+                Newsletter
+            </h4>
 
-                <form>
-                    <div class="effect1 w-size9">
-                        <input class="s-text7 bg6 w-full p-b-5" type="text" name="email" placeholder="email@example.com">
-                        <span class="effect1-line"></span>
-                    </div>
+            <form>
+                <div class="effect1 w-size9">
+                    <input class="s-text7 bg6 w-full p-b-5" type="text" name="email" placeholder="email@example.com">
+                    <span class="effect1-line"></span>
+                </div>
 
-                    <div class="w-size2 p-t-20">
-                        <!-- Button -->
+                <div class="w-size2 p-t-20">
+                    <!-- Button -->
             <!--<button class="flex-c-m size2 bg4 bo-rad-23 hov1 m-text3 trans-0-4">
-							Subscribe
-						</button>
-                    </div>
+                        Subscribe
+                    </button>
+                </div>
 
-                </form>
-            </div> -->
+            </form>
+        </div> -->
         </div>
 
         <div class="t-center p-l-15 p-r-15">
@@ -413,8 +430,6 @@
             </div>
         </div>
     </footer>
-
-
 
     <!-- Back to top -->
     <div class="btn-back-to-top bg0-hov" id="myBtn">

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Product - Maxi Regular Pads</title>
+    <title>Products - Personal Hygiene</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
@@ -28,6 +28,8 @@
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
     <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/noui/nouislider.min.css">
+    <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="css/util.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <!--===============================================================================================-->
@@ -41,21 +43,33 @@
         <div class="container-menu-header">
             <div class="topbar">
                 <div class="topbar-social">
-                    <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" class="topbar-social-item fa fa-facebook"></a>
-                    <a href="#" class="topbar-social-item fa fa-instagram"></a>
-                    <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
-                    <a href="https://www.linkedin.com/company/maasik/" class="topbar-social-item fa fa-linkedin"></a>
+                    <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" target="_blank" class="topbar-social-item fa fa-facebook"></a>
+                    <a href="#" class="topbar-social-item fa fa-instagram" target="_blank"></a>
+                    <!-- <a href="#" class="topbar-social-item fa fa-youtube-play"></a> -->
+                    <a href="https://www.linkedin.com/company/maasik/" target="_blank" class="topbar-social-item fa fa-linkedin"></a>
                 </div>
+
+                <!-- <span class="topbar-child1">
+					Free shipping for standard order over Rs. 500
+				</span> -->
+
                 <div class="topbar-child2">
                     <span class="topbar-email">
 						info@maasik.in
 					</span>
+
+                    <!-- <div class="topbar-language rs1-select2">
+                        <select class="selection-1" name="time">
+							<option>USD</option>
+							<option>EUR</option>
+						</select>
+                    </div> -->
                 </div>
             </div>
 
             <div class="wrap_header">
                 <!-- Logo -->
-                <a href="index.html" class="logo">
+                <a href="index.php" class="logo">
                     <img src="images/icons/logo.png" alt="IMG-LOGO">
                 </a>
 
@@ -64,20 +78,20 @@
                     <nav class="menu">
                         <ul class="main_menu">
                             <li>
-                                <a href="index.html">Home</a>
+                                <a href="index.php">Home</a>
 
                             </li>
 
                             <li>
-                                <a href="about.html">About Us</a>
+                                <a href="about.php">About Us</a>
                             </li>
 
                             <li>
-                                <a href="product.html">Products</a>
+                                <a href="product.php">Products</a>
                             </li>
 
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="contact.php">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -88,7 +102,7 @@
         <!-- Header Mobile -->
         <div class="wrap_header_mobile">
             <!-- Logo moblie -->
-            <a href="index.html" class="logo-mobile">
+            <a href="index.php" class="logo-mobile">
                 <img src="images/icons/logo.png" alt="IMG-LOGO">
             </a>
 
@@ -114,208 +128,192 @@
 
                     <li class="item-topbar-mobile p-l-10">
                         <div class="topbar-social-mobile">
-                            <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" class="topbar-social-item fa fa-facebook"></a>
-                            <a href="#" class="topbar-social-item fa fa-instagram"></a>
-                            <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
-                            <a href="https://www.linkedin.com/company/maasik/" class="topbar-social-item fa fa-linkedin"></a>
+                            <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" target="_blank" class="topbar-social-item fa fa-facebook"></a>
+                            <a href="#" class="topbar-social-item fa fa-instagram" target="_blank"></a>
+                            <!-- <a href="#" class="topbar-social-item fa fa-youtube-play"></a> -->
+                            <a href="https://www.linkedin.com/company/maasik/" target="_blank" class="topbar-social-item fa fa-linkedin"></a>
                         </div>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="about.html">About Us</a>
+                        <a href="about.php">About Us</a>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="product.html">Products</a>
+                        <a href="product.php">Products</a>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.php">Contact</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- breadcrumb -->
-    <div class="bread-crumb bgwhite flex-w p-l-52 p-r-15 p-t-30 p-l-15-sm">
-        <a href="index.html" class="s-text16">
-			Home
-			<i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
-		</a>
+    <!-- Title Page -->
+    <section class="bg-title-page p-t-50 p-b-40 flex-col-c-m background-banner">
+        <h2 class="l-text2 t-center">
+            Personal Hygiene
+        </h2>
+        <!-- <p class="m-text13 t-center">
+            
+        </p> -->
+    </section>
 
-        <a href="product.html" class="s-text16">
-			Product
-			<i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
-		</a>
 
-        <a href="sanitary-pads.html" class="s-text16">
-			Sanitary Pads
-			<i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
-		</a>
+    <!-- Content page -->
+    <section class="bgwhite p-t-55 p-b-65">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+                    <div class="leftbar p-r-20 p-r-0-sm">
+                        <!--  -->
+                        <h4 class="m-text14 p-b-7">
+                            Categories
+                        </h4>
 
-        <a href="maxi-regular.html" class="s-text16">
-			Maxi Regular Pads
-		</a>
-    </div>
+                        <ul class="p-b-54">
+                            <li class="p-t-4">
+                                <a href="product.php" class="s-text13 active1">
+									All
+								</a>
+                            </li>
 
-    <!-- Product Detail -->
-    <div class="container bgwhite p-t-35 p-b-80">
-        <div class="flex-w flex-sb">
-            <div class="w-size13 p-t-30 respon5">
-                <div class="wrap-slick3 flex-sb flex-w">
-                    <div class="wrap-slick3-dots"></div>
+                            <li class="p-t-4">
+                                <a href="sanitary-pads.php" class="s-text13">
+									Sanitary Pads
+								</a>
+                            </li>
 
-                    <div class="slick3">
-                        <div class="item-slick3" data-thumb="images/thumb-item-01.jpg">
-                            <div class="wrap-pic-w">
-                                <img src="images/product-detail-01.jpg" alt="IMG-PRODUCT">
+                            <li class="p-t-4">
+                                <a href="elderly-care.php" class="s-text13">
+									Elderly Care
+								</a>
+                            </li>
+
+                            <li class="p-t-4">
+                                <a href="personal-hygiene.php" class="s-text13">
+									Personal Hygiene
+								</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-8 col-lg-9 p-b-50">
+                    <!-- Product -->
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+                            <!-- Block2 -->
+                            <div class="block2">
+                                <div class="block2-img wrap-pic-w of-hidden pos-relative ">
+                                    <img src="images/anion-pads.png" alt="IMG-PRODUCT">
+
+                                    <div class="block2-overlay trans-0-4">
+                                        <!-- <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                            <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                            <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                        </a> -->
+
+                                        <div class="block2-btn-addcart w-size1 trans-0-4">
+                                            <!-- Button -->
+                                            <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="window.location.href='hand-sanitizer.php'">
+												View More
+											</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="block2-txt p-t-20">
+                                    <a href="hand-sanitizer.php" class="block2-name dis-block s-text3 p-b-5">
+										Hand Sanitizers
+									</a>
+
+                                    <span class="block2-price m-text6 p-r-5">
+										Rs. 
+									</span>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="item-slick3" data-thumb="images/thumb-item-02.jpg">
-                            <div class="wrap-pic-w">
-                                <img src="images/product-detail-02.jpg" alt="IMG-PRODUCT">
+                        <div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+                            <!-- Block2 -->
+                            <div class="block2">
+                                <div class="block2-img wrap-pic-w of-hidden pos-relative">
+                                    <img src="images/anion-pads.png" alt="IMG-PRODUCT">
+
+                                    <div class="block2-overlay trans-0-4">
+                                        <!-- <a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+                                            <i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                            <i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                        </a> -->
+
+                                        <div class="block2-btn-addcart w-size1 trans-0-4">
+                                            <!-- Button -->
+                                            <button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" onclick="window.location.href='wet-wipes.php'">
+												View More
+											</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="block2-txt p-t-20">
+                                    <a href="wet-wipes.php" class="block2-name dis-block s-text3 p-b-5">
+										Wet Wipes
+									</a>
+
+                                    <span class="block2-price m-text6 p-r-5">
+										Rs. 
+									</span>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="item-slick3" data-thumb="images/thumb-item-03.jpg">
-                            <div class="wrap-pic-w">
-                                <img src="images/product-detail-03.jpg" alt="IMG-PRODUCT">
-                            </div>
-                        </div>
                     </div>
+
                 </div>
-            </div>
-
-            <div class="w-size14 p-t-30 respon5">
-                <h4 class="product-detail-name m-text16 p-b-13">
-                    Maxi Regular Pads
-                </h4>
-
-                <span class="m-text17">
-					Rs. 22
-				</span>
-
-                <p class="s-text8 p-t-10">
-                    All round protection with soft touch and offers great comfort.
-                </p>
-
-                <!--  -->
-                <div class="p-t-33 p-b-60">
-                    <div class="flex-m flex-w p-b-10">
-                        <div class="s-text15 w-size15 t-center">
-                            Size
-                        </div>
-
-                        <div class="rs2-select2 rs3-select2 bo4 of-hidden w-size16">
-                            <select class="selection-2" name="size">
-								<option>Choose an option</option>
-								<option>Size S</option>
-								<option>Size M</option>
-								<option>Size L</option>
-								<option>Size XL</option>
-							</select>
-                        </div>
-                    </div>
-
-                    <!-- <div class="flex-m flex-w">
-                        <div class="s-text15 w-size15 t-center">
-                            Color
-                        </div>
-
-                        <div class="rs2-select2 rs3-select2 bo4 of-hidden w-size16">
-                            <select class="selection-2" name="color">
-								<option>Choose an option</option>
-								<option>Gray</option>
-								<option>Red</option>
-								<option>Black</option>
-								<option>Blue</option>
-							</select>
-                        </div>
-                    </div> -->
-
-                    <div class="flex-r-m flex-w p-t-10">
-                        <div class="w-size16 flex-m flex-w">
-                            <!-- <div class="flex-w bo5 of-hidden m-r-22 m-t-10 m-b-10">
-                                <button class="btn-num-product-down color1 flex-c-m size7 bg8 eff2">
-									<i class="fs-12 fa fa-minus" aria-hidden="true"></i>
-								</button>
-
-                                <input class="size8 m-text18 t-center num-product" type="number" name="num-product" value="1">
-
-                                <button class="btn-num-product-up color1 flex-c-m size7 bg8 eff2">
-									<i class="fs-12 fa fa-plus" aria-hidden="true"></i>
-								</button>
-                            </div> -->
-
-                            <div class="btn-addcart-product-detail size9 trans-0-4 m-t-10 m-b-10">
-                                <!-- Button -->
-                                <button class="flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4">
-									Buy Now
-								</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-b-45">
-                    <!-- <span class="s-text8 m-r-35">SKU: MUG-01</span> -->
-                    <span class="s-text8">Categories: Sanitary Pads</span>
-                </div>
-
-                <!--  -->
-                <div class="wrap-dropdown-content bo6 p-t-15 p-b-14 active-dropdown-content">
-                    <h5 class="js-toggle-dropdown-content flex-sb-m cs-pointer m-text19 color0-hov trans-0-4">
-                        Description
-                        <i class="down-mark fs-12 color1 fa fa-minus dis-none" aria-hidden="true"></i>
-                        <i class="up-mark fs-12 color1 fa fa-plus" aria-hidden="true"></i>
-                    </h5>
-
-                    <div class="dropdown-content dis-none p-t-15 p-b-23">
-                        <p class="s-text8">
-                            A pad that offers best protection on heavy flow or the ones for neutralizing odour.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="wrap-dropdown-content bo7 p-t-15 p-b-14">
-                    <h5 class="js-toggle-dropdown-content flex-sb-m cs-pointer m-text19 color0-hov trans-0-4">
-                        Additional Benefits
-                        <i class="down-mark fs-12 color1 fa fa-minus dis-none" aria-hidden="true"></i>
-                        <i class="up-mark fs-12 color1 fa fa-plus" aria-hidden="true"></i>
-                    </h5>
-
-                    <div class="dropdown-content dis-none p-t-15 p-b-23">
-                        <p class="s-text8">
-                            • Offering women a four wall protection thereby protecting them from any leakage, so that you stay stress free from any strains. <br/>• Provides best protection even when your flow is too high. <br/>• It is made up of soft
-                            cotton that offers you great relief. <br/>• Possessing fast absorbent quality makes it best to absorb fluids thereby keeping the body away from it. <br/>• It aids to nullify the odour, so that you stay fresh and confident all
-                            day.
-
-                        </p>
-                    </div>
-                </div>
-
-                <!-- <div class="wrap-dropdown-content bo7 p-t-15 p-b-14">
-                    <h5 class="js-toggle-dropdown-content flex-sb-m cs-pointer m-text19 color0-hov trans-0-4">
-                        Reviews (0)
-                        <i class="down-mark fs-12 color1 fa fa-minus dis-none" aria-hidden="true"></i>
-                        <i class="up-mark fs-12 color1 fa fa-plus" aria-hidden="true"></i>
-                    </h5>
-
-                    <div class="dropdown-content dis-none p-t-15 p-b-23">
-                        <p class="s-text8">
-                            Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placerat
-                        </p>
-                    </div>
-                </div> -->
             </div>
         </div>
-    </div>
+    </section>
+
+    <!-- Accreditions -->
+    <!-- <section class="shipping bgwhite p-t-62 p-b-46">
+        <div class="flex-w p-l-15 p-r-15">
+            <div class="flex-col-c w-size5 p-l-15 p-r-15 p-t-16 p-b-15 respon1">
+                <h4 class="m-text12 t-center wrap-pic-w">
+                    <img src="images/khadi-india.png">
+                </h4>
+
+                <a href="https://www.khadiindia.in/" target="_blank" class="s-text11 t-center">
+					Click here for more info
+				</a>
+            </div>
+
+            <div class="flex-col-c w-size5 p-l-15 p-r-15 p-t-16 p-b-15 bo2 respon2">
+                <h4 class="m-text12 t-center wrap-pic-w">
+                    <img src="images/Make-In-India.png">
+                </h4>
+
+                <a href="https://www.makeinindia.com/home" target="_blank" class="s-text11 t-center">
+					Click here for more info
+				</a>
+            </div>
+
+            <div class="flex-col-c w-size5 p-l-15 p-r-15 p-t-16 p-b-15 respon1">
+                <h4 class="m-text12 t-center wrap-pic-w">
+                    <img src="images/swacch-bharat.jpg">
+                </h4>
+
+                <a href="https://swachhbharat.mygov.in/" target="_blank" class="s-text11 t-center">
+					Click here for more info
+				</a>
+            </div>
+        </div>
+    </section> -->
 
     <!-- Footer -->
     <footer class="bg6 p-t-45 p-b-43 p-l-45 p-r-45">
@@ -329,19 +327,19 @@
 
                 <ul>
                     <li class="p-b-9">
-                        <a href="product.html" class="s-text7">
+                        <a href="product.php" class="s-text7">
 							Sanitary Pads
 						</a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="personal-hygiene.html" class="s-text7">
+                        <a href="personal-hygiene.php" class="s-text7">
                             Personal Hygiene
 						</a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="elderly-care.html" class="s-text7">
+                        <a href="elderly-care.php" class="s-text7">
                             Elderly Care
 						</a>
                     </li>
@@ -355,19 +353,19 @@
 
                 <ul>
                     <li class="p-b-9">
-                        <a href="about.html#our-mission" class="s-text7">
+                        <a href="about.php#our-mission" class="s-text7">
 							Our Mission
 						</a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="about.html#who-we-are" class="s-text7">
+                        <a href="about.php#who-we-are" class="s-text7">
 							Who We Are
 						</a>
                     </li>
 
                     <li class="p-b-9">
-                        <a href="index.html#about-maasik" class="s-text7">
+                        <a href="index.php#about-maasik" class="s-text7">
 							About Maasik
 						</a>
                     </li>
@@ -466,6 +464,9 @@
         });
     </script>
     <!--===============================================================================================-->
+    <script type="text/javascript" src="vendor/daterangepicker/moment.min.js"></script>
+    <script type="text/javascript" src="vendor/daterangepicker/daterangepicker.js"></script>
+    <!--===============================================================================================-->
     <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
     <script type="text/javascript" src="js/slick-custom.js"></script>
     <!--===============================================================================================-->
@@ -484,15 +485,32 @@
                 swal(nameProduct, "is added to wishlist !", "success");
             });
         });
-
-        $('.btn-addcart-product-detail').each(function() {
-            var nameProduct = $('.product-detail-name').html();
-            $(this).on('click', function() {
-                swal(nameProduct, "is added to wishlist !", "success");
-            });
-        });
     </script> -->
 
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="vendor/noui/nouislider.min.js"></script>
+    <!-- <script type="text/javascript">
+        /*[ No ui ]===========================================================*/
+        var filterBar = document.getElementById('filter-bar');
+
+        noUiSlider.create(filterBar, {
+            start: [50, 200],
+            connect: true,
+            range: {
+                'min': 50,
+                'max': 200
+            }
+        });
+
+        var skipValues = [
+            document.getElementById('value-lower'),
+            document.getElementById('value-upper')
+        ];
+
+        filterBar.noUiSlider.on('update', function(values, handle) {
+            skipValues[handle].innerHTML = Math.round(values[handle]);
+        });
+    </script> -->
     <!--===============================================================================================-->
     <script src="js/main.js"></script>
 
