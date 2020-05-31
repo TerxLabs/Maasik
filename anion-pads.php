@@ -320,7 +320,7 @@
 						</a>
                     </li>
 
-                    <li class="p-b-9">
+                    <!-- <li class="p-b-9">
                         <a href="personal-hygiene.php" class="s-text7">
                             Personal Hygiene
 						</a>
@@ -330,7 +330,7 @@
                         <a href="elderly-care.php" class="s-text7">
                             Elderly Care
 						</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
 
@@ -374,14 +374,14 @@
 
                 <div>
                     <p class="s-text7 w-size27">
-                        Any questions? <br/>Let us know in store at #237, 2nd Floor, JLPL Industrial Area, Sec-82 Mohali, 140301, India or call us on (+1) 96 716 6879
+                        Any questions? <br/>Let us know at #237, 2nd Floor, JLPL Industrial Area, Sec-82 Mohali, 140301, India or call us on (+1) 96 716 6879
                     </p>
 
                     <div class="flex-m p-t-30">
-                        <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" class="fs-20 color1 p-r-20 fa fa-facebook"></a>
-                        <a href="#" class="fs-20 color1 p-r-20 fa fa-instagram"></a>
-                        <a href="#" class="fs-20 color1 p-r-20 fa fa-youtube-play"></a>
-                        <a href="https://www.linkedin.com/company/maasik/" class="fs-20 color1 p-r-20 fa fa-linkedin"></a>
+                        <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" target="_blank" class="fs-20 color1 p-r-20 fa fa-facebook"></a>
+                        <a href="#" class="fs-20 color1 p-r-20 fa fa-instagram" target="_blank"></a>
+                        <!-- <a href="#" class="fs-20 color1 p-r-20 fa fa-youtube-play"></a> -->
+                        <a href="https://www.linkedin.com/company/maasik/" target="_blank" class="fs-20 color1 p-r-20 fa fa-linkedin"></a>
                     </div>
                 </div>
             </div>

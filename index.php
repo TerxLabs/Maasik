@@ -452,21 +452,21 @@
                 <ul>
                     <li class="p-b-9">
                         <a href="product.php" class="s-text7">
-                        Sanitary Pads
-                    </a>
+							Sanitary Pads
+						</a>
                     </li>
 
-                    <li class="p-b-9">
+                    <!-- <li class="p-b-9">
                         <a href="personal-hygiene.php" class="s-text7">
-                        Personal Hygiene
-                    </a>
+                            Personal Hygiene
+						</a>
                     </li>
 
                     <li class="p-b-9">
                         <a href="elderly-care.php" class="s-text7">
-                        Elderly Care
-                    </a>
-                    </li>
+                            Elderly Care
+						</a>
+                    </li> -->
                 </ul>
             </div>
 
@@ -478,27 +478,27 @@
                 <ul>
                     <li class="p-b-9">
                         <a href="about.php#our-mission" class="s-text7">
-                        Our Mission
-                    </a>
+							Our Mission
+						</a>
                     </li>
 
                     <li class="p-b-9">
                         <a href="about.php#who-we-are" class="s-text7">
-                        Who We Are
-                    </a>
+							Who We Are
+						</a>
                     </li>
 
                     <li class="p-b-9">
                         <a href="index.php#about-maasik" class="s-text7">
-                        About Maasik
-                    </a>
+							About Maasik
+						</a>
                     </li>
 
                     <!-- <li class="p-b-9">
-                    <a href="#" class="s-text7">
-                        FAQs
-                    </a>
-                </li> -->
+                        <a href="#" class="s-text7">
+							FAQs
+						</a>
+                    </li> -->
                 </ul>
             </div>
 
@@ -510,38 +510,38 @@
 
                 <div>
                     <p class="s-text7 w-size27">
-                        Any questions? <br/>Let us know in store at #237, 2nd Floor, JLPL Industrial Area, Sec-82 Mohali, 140301, India or call us on (+1) 96 716 6879
+                        Any questions? <br/>Let us know at #237, 2nd Floor, JLPL Industrial Area, Sec-82 Mohali, 140301, India or call us on (+1) 96 716 6879
                     </p>
 
                     <div class="flex-m p-t-30">
-                        <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" class="fs-20 color1 p-r-20 fa fa-facebook"></a>
-                        <a href="#" class="fs-20 color1 p-r-20 fa fa-instagram"></a>
-                        <a href="#" class="fs-20 color1 p-r-20 fa fa-youtube-play"></a>
-                        <a href="https://www.linkedin.com/company/maasik/" class="fs-20 color1 p-r-20 fa fa-linkedin"></a>
+                        <a href="https://www.facebook.com/Maasik-474606726405149/?ref=br_rs" target="_blank" class="fs-20 color1 p-r-20 fa fa-facebook"></a>
+                        <a href="#" class="fs-20 color1 p-r-20 fa fa-instagram" target="_blank"></a>
+                        <!-- <a href="#" class="fs-20 color1 p-r-20 fa fa-youtube-play"></a> -->
+                        <a href="https://www.linkedin.com/company/maasik/" target="_blank" class="fs-20 color1 p-r-20 fa fa-linkedin"></a>
                     </div>
                 </div>
             </div>
 
             <!-- <div class="w-size8 p-t-30 p-l-15 p-r-15 respon3">
-            <h4 class="s-text12 p-b-30">
-                Newsletter
-            </h4>
+                <h4 class="s-text12 p-b-30">
+                    Newsletter
+                </h4>
 
-            <form>
-                <div class="effect1 w-size9">
-                    <input class="s-text7 bg6 w-full p-b-5" type="text" name="email" placeholder="email@example.com">
-                    <span class="effect1-line"></span>
-                </div>
+                <form>
+                    <div class="effect1 w-size9">
+                        <input class="s-text7 bg6 w-full p-b-5" type="text" name="email" placeholder="email@example.com">
+                        <span class="effect1-line"></span>
+                    </div>
 
-                <div class="w-size2 p-t-20">
-                    <!-- Button -->
+                    <div class="w-size2 p-t-20">
+                        <!-- Button -->
             <!--<button class="flex-c-m size2 bg4 bo-rad-23 hov1 m-text3 trans-0-4">
-                        Subscribe
-                    </button>
-                </div>
+							Subscribe
+						</button>
+                    </div>
 
-            </form>
-        </div> -->
+                </form>
+            </div> -->
         </div>
 
         <div class="t-center p-l-15 p-r-15">
