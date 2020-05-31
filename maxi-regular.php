@@ -180,21 +180,7 @@
         <div class="flex-w flex-sb">
             <div class="w-size13 p-t-30 respon5">
                 <div class="wrap-slick3 flex-sb flex-w">
-                    <div class="wrap-slick3-dots"></div>
-
                     <div class="slick3">
-                        <div class="item-slick3" data-thumb="images/thumb-item-01.jpg">
-                            <div class="wrap-pic-w">
-                                <img src="images/product-detail-01.jpg" alt="IMG-PRODUCT">
-                            </div>
-                        </div>
-
-                        <div class="item-slick3" data-thumb="images/thumb-item-02.jpg">
-                            <div class="wrap-pic-w">
-                                <img src="images/product-detail-02.jpg" alt="IMG-PRODUCT">
-                            </div>
-                        </div>
-
                         <div class="item-slick3" data-thumb="images/thumb-item-03.jpg">
                             <div class="wrap-pic-w">
                                 <img src="images/product-detail-03.jpg" alt="IMG-PRODUCT">
@@ -219,21 +205,6 @@
 
                 <!--  -->
                 <div class="p-t-33 p-b-60">
-                    <div class="flex-m flex-w p-b-10">
-                        <div class="s-text15 w-size15 t-center">
-                            Size
-                        </div>
-
-                        <div class="rs2-select2 rs3-select2 bo4 of-hidden w-size16">
-                            <select class="selection-2" name="size">
-								<option>Choose an option</option>
-								<option>Size S</option>
-								<option>Size M</option>
-								<option>Size L</option>
-								<option>Size XL</option>
-							</select>
-                        </div>
-                    </div>
 
                     <!-- <div class="flex-m flex-w">
                         <div class="s-text15 w-size15 t-center">
