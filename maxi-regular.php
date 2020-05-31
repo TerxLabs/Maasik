@@ -161,14 +161,14 @@
 		</a>
 
         <a href="product.php" class="s-text16">
-			Product
-			<i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
-		</a>
-
-        <a href="sanitary-pads.php" class="s-text16">
 			Sanitary Pads
 			<i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
 		</a>
+
+        <!-- <a href="sanitary-pads.php" class="s-text16">
+			Sanitary Pads
+			<i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
+		</a> -->
 
         <a href="maxi-regular.php" class="s-text16">
 			Maxi Regular Pads
