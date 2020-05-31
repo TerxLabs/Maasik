@@ -204,7 +204,7 @@
 
                 <div class="col-sm-10 col-md-8 col-lg-6 m-l-r-auto p-t-15 p-b-15">
                     <div class="bgwhite hov-img-zoom pos-relative p-b-20per-ssm img-border2">
-                        <img src="images/about_us_psd.png" alt="IMG-BANNER">
+                        <img src="https://scontent.fluh1-1.fna.fbcdn.net/v/t1.0-9/p720x720/71916056_597461547452999_4374618241893400576_o.jpg?_nc_cat=105&_nc_sid=110474&_nc_ohc=yCvxUSDWozMAX_6h4mz&_nc_ht=scontent.fluh1-1.fna&_nc_tp=6&oh=3fae7ef32f4c4b08922c9c4551db1d43&oe=5EF717EE" alt="IMG-BANNER">
                     </div>
                 </div>
             </div>
